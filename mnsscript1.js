@@ -78,20 +78,6 @@ function amt()
 			show_image('http://spoki.tvnet.lv/upload2/articles/68/685272/images/_origin_-10-Random-WTFakti--4.jpg',276,110,'Google Logo');
 			break
 		}
-		// if(newcount == 2)
-		// {
-		// 	show_image('http://google.com/images/logo.gif', 
-  //                276, 
-  //                110, 
-  //                'Google Logo');
-		// }
-		// else
-		// {
-		// 	show_image('http://spoki.tvnet.lv/upload2/articles/68/685272/images/_origin_-10-Random-WTFakti--4.jpg', 
-  //                276, 
-  //                110, 
-  //                'Google Logo');
-		// }
 		return count
    	}
 }
