@@ -2,22 +2,19 @@ function Check(id)
 {
 	SetCookie(id,'1')
 
-	var image1 = GetCookie('Image_1')
-	var image2 = GetCookie('Image_2')
-	var image3 = GetCookie('Image_3')
-	var image4 = GetCookie('Image_4')
-	var image5 = GetCookie('Image_5')
+	var image1 = GetCookie('Image_1');
+	var image2 = GetCookie('Image_2');
+	var image3 = GetCookie('Image_3');
+	var image4 = GetCookie('Image_4');
 
-	if (image1 == null || image2 == null || image3 == null || image4 == null || image5 == null)
+	if (image1 == null || image2 == null || image3 == null || image4 == null)
 	{
-		Display('sorry.png',417,537,'sorry');	
+		Display('sorry.png',640,824,'sorry');	
 	}
 	else
 	{
-		Display('won.png',417,537,'winner');	
+		Display('won.png',640,824,'winner');	
 	}
-
-	
 }
 
 function Display(src, width, height, alt) 
